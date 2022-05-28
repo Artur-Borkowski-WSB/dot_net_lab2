@@ -102,7 +102,7 @@ namespace PeselTests
             foreach (String pesel in mezczyzni)
             {
                 PESELWalidator m = new(pesel);
-                Assert.AreEqual("M�czyzna", m.Plec(), pesel);
+                Assert.AreEqual("Mężczyzna", m.Plec(), pesel);
             }
         }
 
